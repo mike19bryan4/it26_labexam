@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hayahay beach resort </title>
+    <link rel="stylesheet" href="../styles/reservation.css">
+</head>
+<body>
+     <div class="container_1">
+      <header>
+        <div class="head">
+          <h1>Hayahay Beach Resort </h1>
+        </div>
+         <nav>
+             <ul class="nav_link">
+              <li><a href="../index.html">HOME</a></li>
+              <li><a href="cottages.html">COTTAGE</a></li>
+              <li><a href="roomrate.html">ROOM RATE</a></li>
+              <li><a href="reservation.html">RESERVATION</a></li>
+              <li><a href="about_us.html">ABOUT US </a></li>
+             </ul>
+         </nav>
+     </header>
+         <div class="welcom_text">
+              <h2>Welcom to <br>
+                 RESERVATIONT</h2>
+         </div>
+     </div>
+    <main>
+          <div class="container">
+              <h2>RESERVATION FORM</h2>
+      
+                <form action="submit_form" method="POST">
+                  <div class="form-group">
+                    <label for="name">First Name:</label>
+                    <input type="text" id="name" name="name" required>
+                  </div>
+              
+                  <div class="form-group">
+                    <label for="Last Name">Last Name:</label>
+                    <input type="text" id="Last Name" name="Last Name" required>
+                  </div>
+              
+                  <div class="form-group">
+                    <label for="Email">Email:</label>
+                    <input type="Email" name="Email" required>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Number">Contact Number:</label>
+                    <input id="Number" name="Number" required>
+                  </div>
+
+                <div class="form_group">
+                  <label for="numPersons">Number of ADULT:</label>
+                  <select id="numPersons" class="select-style">
+                    <option value="0">0</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                  </select>
+                </div>
+
+                <div class="form_group">
+                    <label for="numPersons">Number of KIDS:</label>
+                    <select id="numPersons" class="select-style">
+                      <option value="0">0</option>
+                      <option value="1">1</option>
+                      <option value="2">2</option>
+                      <option value="3">3</option>
+                      <option value="4">4</option>
+                      <option value="5">5</option>
+                      <option value="6">6</option>
+                    </select>
+                  </div>
+
+                  <div class="form-group">
+                    <label for="Date">Date:</label>
+                    <input type="date" id="date" name="date">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="TimecheckIn">Time for Check-In:</label>
+                    <input type="time" id="TimecheckIn" name="TimecheckIn" required>
+                  </div>
+                   
+                  <div class="form-group">
+                    <label for="note">Special Note:</label>
+                    <textarea id="Note" name="Note" rows="4" cols="50" required></textarea>
+                  </div>
+              
+                  <input type="submit" value="Submit" class="btn">
+                </form>
+            </div>   
+    </main>
+    <footer>
+        <small>
+            &copy; 2024 Hayahay beach resort. All Right Reserve. 
+        </small>
+    </footer>
+</body>
+</html>
